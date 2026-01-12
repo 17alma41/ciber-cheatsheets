@@ -1,6 +1,6 @@
-# Web hacking cheatsheets
+# Ciber cheatsheets
 
-Recopilación de guías rápidas y checklists de utilidad para ciberseguridad y pruebas de penetración.
+Recopilación de guías rápidas y checklists de utilidad para ciberseguridad, pruebas de penetración y forense.
 
 ## Contenido
 
