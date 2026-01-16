@@ -30,6 +30,7 @@ Buscar inputs que se guarden (comentarios, perfiles).
 
 ```html
 <img src=x onerror=alert(1)>
+
 "><svg/onload=alert(1)>
 ```
 
