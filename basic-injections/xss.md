@@ -15,6 +15,20 @@ Ejecución de JavaScript en el navegador de la víctima.
 ```html
 <script>alert(1)</script>
 ```
+```js
+'-alert(1)-'
+
+--- Explicación
+
+' (Comilla)*: Cierra la cadena de texto original donde se inyecta nuestro valor.
+
+- (Guion): Actúa como un operador de resta. JavaScript intenta restar el resultado de alert(1) a la cadena anterior, lo que obliga a ejecutar la función.
+
+-': El último guion y la comilla reabren una cadena de texto para que el código restante del script original no cause un error de sintaxis y la ejecución se detenga.
+
+---
+```
+
 
 ### Stored
 
