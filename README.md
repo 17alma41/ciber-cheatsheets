@@ -35,6 +35,10 @@ Recopilación de guías rápidas y checklists de utilidad para ciberseguridad, p
 
 ### Inyecciones
 
-[SQLi](inyecciones/sqli.md)
+[SQLi](basic-injections/sqli.md)
 
-[XSS](inyecciones/xss.md)
+[XSS](basic-injections/xss.md)
+
+### Laboratorios
+
+[Labs](labs)
